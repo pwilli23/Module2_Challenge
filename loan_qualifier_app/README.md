@@ -23,8 +23,8 @@ To install and use the applications users
 
 Before running the program, users must install the following packages:
 
-```pip install fire
-pip install questionary```
+`pip install fire`
+`pip install questionary`
 
 
 
