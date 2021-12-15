@@ -23,8 +23,9 @@ To install and use the applications users
 
 Before running the program, users must install the following packages:
 
-`pip install fire`
-`pip install questionary`
+- `pip install fire`
+
+- `pip install questionary`
 
 
 
@@ -32,27 +33,32 @@ Before running the program, users must install the following packages:
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+In order to use the loan qualifier application, the user must clone the *Module2_Challenge* repository from GitHub and paste the link in terminal. 
 
-In order to use the loan qualifier application, users must clone the *Module2_Challenge* repository from GitHub and paste the link in terminal. 
+**After cloning from the repository the user must open and run application with the following code in the command line:**
+- `python app.py`
 
-After cloning from the repository the user must run the following code in the command line:
-`python app.py`
-
-The preceding code will then prompt the user with the question to access the bank loan data: *Enter a file path to a rate-sheet (.csv):*
-
-![Screenshot](screenshot12-24.png)
+After entering the application into the command line, the user will be asked for a CSV file path: *Enter a file path to a rate-sheet (.csv):*
 
 
+**The user will then enter the following csv file path:**
+
+- `./data/daily_rate_sheet.csv`
+
+Once this step is completed the user is now able to enter their financial information to see if they qualify for a loan.
+
+**If the user does qualify for a loan they will be prompted with a question to save their bank loan options to a CSV file**
+
+- The user can save the CSV file by answering 'Yes' and save the file to their desired location locally. 
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Brought to you by UNC Charlotte and Patten Williams
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+UNCC
