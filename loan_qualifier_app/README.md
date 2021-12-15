@@ -10,8 +10,9 @@ This application was built to better assist users inquiring about obtaining a lo
 
 This application uses python version 3.7 as well as the following libraries:
 
-'fire' - This library is needed to create the command-line interface that the app runs on. 
-'questionary'- This is an interactive program that asks users questions in the command-line interface.  
+`fire` - This library is needed to create the command-line interface that the app runs on. 
+
+`questionary` - This is an interactive program that asks users questions in the command-line interface.  
 
 ---
 
@@ -22,8 +23,8 @@ To install and use the applications users
 
 Before running the program, users must install the following packages:
 
-'''pip install fire
-pip install questionary'''
+```pip install fire
+pip install questionary```
 
 
 
@@ -33,10 +34,15 @@ pip install questionary'''
 
 This section should include screenshots, code blocks, or animations explaining how to use your project.
 
-In order to use the loan qualifier application, users must clone the Module2_Challenge repository from GitHub and paste the link in terminal. 
+In order to use the loan qualifier application, users must clone the *Module2_Challenge* repository from GitHub and paste the link in terminal. 
 
 After cloning from the repository the user must run the following code in the command line:
-''' python app.py'''
+`python app.py`
+
+The preceding code will then prompt the user with the question to access the bank loan data: *Enter a file path to a rate-sheet (.csv):*
+
+![Screenshot](screenshot12-24.png)
+
 
 
 ---
