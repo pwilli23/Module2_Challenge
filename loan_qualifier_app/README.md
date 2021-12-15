@@ -1,24 +1,43 @@
-# Project Title
+# Loan Qualifier Application:
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This application was built to better assist users inquiring about obtaining a loan. The app asks 4 basic questions: what is your credit score, debt to income ratio, loan to home value ratio, and how large of a loan are you seeking?  The application takes the information provided by the user and shows them if they qualify for a loan and which banks would be willing to provide one.  
+
+
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This application uses python version 3.7 as well as the following libraries:
+
+'fire' - This library is needed to create the command-line interface that the app runs on. 
+'questionary'- This is an interactive program that asks users questions in the command-line interface.  
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+In this section, you should include detailed installation notes containin
+To install and use the applications users 
+
+Before running the program, users must install the following packages:
+
+'''pip install fire
+pip install questionary'''
+
+
 
 ---
 
 ## Usage
 
 This section should include screenshots, code blocks, or animations explaining how to use your project.
+
+In order to use the loan qualifier application, users must clone the Module2_Challenge repository from GitHub and paste the link in terminal. 
+
+After cloning from the repository the user must run the following code in the command line:
+''' python app.py'''
+
 
 ---
 
